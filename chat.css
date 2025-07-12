@@ -1,0 +1,98 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f5f2fb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+      color: #333;
+    }
+    h2 {
+      color: #673ab7;
+      margin-bottom: 1rem;
+    }
+    #chat-container {
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      gap: 1rem;
+    }
+    #sidebar {
+      width: 200px;
+      background: #ede7f6;
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-y: auto;
+      height: 350px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    #sidebar button {
+      display: block;
+      width: 100%;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      background: #d1c4e9;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    #chatbox {
+      flex: 1;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-y: auto;
+      height: 350px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .message {
+      margin-bottom: 0.8rem;
+      padding: 0.5rem 0.8rem;
+      border-radius: 20px;
+      max-width: 75%;
+    }
+    .user {
+      background: #d1c4e9;
+      align-self: flex-end;
+      text-align: right;
+      margin-left: auto;
+    }
+    .lumi {
+      background: #ede7f6;
+      align-self: flex-start;
+      text-align: left;
+      margin-right: auto;
+    }
+    .input-area {
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    input {
+      flex: 1;
+      padding: 0.75rem;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+    button {
+      background: #673ab7;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #5e35b1;
+    }
